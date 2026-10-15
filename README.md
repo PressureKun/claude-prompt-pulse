@@ -1,8 +1,28 @@
-# prompt-pulse
+<div align="center">
 
-A Claude Code mod that draws a compact timeline of each turn: the main agent and every subagent on one shared time axis, what each was busy with color-coded, and what the turn cost.
+# <img src="docs/icon.svg" width="40" height="38" alt=""> prompt-pulse
 
-![A turn in progress: main waits on an MCP call while three subagents run, finish or fail](docs/live.png)
+A live timeline of every turn above the prompt, as a Claude Code mod:<br>
+the main agent and each subagent on one time axis, color-coded, with tokens and cost.
+
+<a href="https://code.claude.com/docs/en/plugins/overview"><img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude_Code-plugin-D97757?style=flat&logo=claude&logoColor=white"></a>
+<a href=".claude-plugin/plugin.json"><img alt="Plugin version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPressureKun%2Fclaude-prompt-pulse%2Fmain%2F.claude-plugin%2Fplugin.json&query=%24.version&label=version&prefix=v&color=blue&style=flat"></a>
+<a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/github/license/PressureKun/claude-prompt-pulse?style=flat"></a>
+<a href="https://www.typescriptlang.org/"><img alt="TypeScript hooks module" src="https://img.shields.io/badge/TypeScript-hooks_module-3178C6?style=flat&logo=typescript&logoColor=white"></a>
+<a href="tests"><img alt="Tested with claude plugin test" src="https://img.shields.io/badge/tests-claude_plugin_test-4EBA65?style=flat"></a>
+<a href="https://github.com/PressureKun/claude-prompt-pulse"><img alt="GitHub stars" src="https://img.shields.io/github/stars/PressureKun/claude-prompt-pulse?style=flat"></a>
+
+<img alt="Built-in tools in blue" src="https://img.shields.io/badge/tools-built--in-5FAFFF?style=flat-square">
+<img alt="MCP servers in magenta" src="https://img.shields.io/badge/MCP-servers-D75FD7?style=flat-square">
+<img alt="Skills in yellow" src="https://img.shields.io/badge/skills-loaded-FFD75F?style=flat-square">
+<img alt="Subagents as lanes, launches in orange" src="https://img.shields.io/badge/subagents-lanes-D97757?style=flat-square">
+<img alt="Errors in red" src="https://img.shields.io/badge/errors-flagged-FF6B80?style=flat-square">
+<img alt="Tokens and cost per turn" src="https://img.shields.io/badge/tokens_%26_cost-per_turn-6E7681?style=flat-square">
+<img alt="Slash command /pulse" src="https://img.shields.io/badge/command-%2Fpulse-6E7681?style=flat-square">
+
+<p><img src="docs/live.png" alt="A turn in progress: main waits on an MCP call while three subagents run, finish or fail"></p>
+
+</div>
 
 ## What you see
 

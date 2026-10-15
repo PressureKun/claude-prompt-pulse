@@ -1,0 +1,9 @@
+{
+  "name": "prompt-pulse",
+  "version": "0.2.0",
+  "description": "Compact timeline of each turn: main agent and subagents on one axis, tools / MCP / skills color-coded, tokens and cost.",
+  "author": { "name": "PressureKun" },
+  "repository": "https://github.com/PressureKun/claude-prompt-pulse",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

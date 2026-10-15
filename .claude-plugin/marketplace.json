@@ -1,0 +1,6 @@
+{
+  "name": "claude-prompt-pulse",
+  "description": "prompt-pulse: a compact per-turn timeline for Claude Code, main agent and subagents on one axis.",
+  "owner": { "name": "PressureKun" },
+  "plugins": [{ "name": "prompt-pulse", "source": "./" }]
+}

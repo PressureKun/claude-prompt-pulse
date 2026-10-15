@@ -214,7 +214,7 @@ function counted(entries: [string, number][], limit: number): string {
 // The lanes of one run: main first, then each subagent, on one shared axis.
 // Drawn live above the prompt and, once the turn is over, under its line in
 // the transcript.
-function Timeline(el: Pick<ElementTable, 'Box' | 'Text'>, r: Run, t: number, columns: number) {
+export function Timeline(el: Pick<ElementTable, 'Box' | 'Text'>, r: Run, t: number, columns: number) {
   const { Box, Text } = el
   const isDone = r.endedAt !== undefined
   const end = Math.max(r.endedAt ?? t, ...r.agents.map(a => a.t1 ?? t))
